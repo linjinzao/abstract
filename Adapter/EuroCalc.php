@@ -2,7 +2,7 @@
 
 
 /*货币兑换-累加所有的价格-*/
-class EourCalc
+class EuroCalc
 {
 
 	private $eour;

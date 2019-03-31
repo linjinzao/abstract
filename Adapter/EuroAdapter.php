@@ -1,6 +1,6 @@
 <?php
 
-include_once("Eurocalc.php");
+include_once("EuroCalc.php");
 include_once("Itarget.php");
 
 class EuroAdapter extends EuroCalc implements ITarget
@@ -11,7 +11,7 @@ class EuroAdapter extends EuroCalc implements ITarget
 	}
 	function requester()
 	{
-		$this->rete =.9111;
+		$this->rete =.8111;
 		return $this->rate;
 	}
 }
